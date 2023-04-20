@@ -1,0 +1,120 @@
+/* Styling untuk seluruh page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Styling untuk header */
+header {
+  background-color: #0099ff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styling untuk container */
+.container {
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 2px solid blue;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+}
+
+/* Styling untuk inner div */
+.inner {
+  margin-top: 20px;
+}
+
+/* Styling untuk table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #0099ff;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Styling untuk action buttons */
+.action-btn {
+  background-color: #0099ff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.action-btn:hover {
+  background-color: #0099ff;
+}
+
+.update {
+  background-color: #4caf50;
+}
+
+.delete {
+  background-color: #f44336;
+}
+
+/* Styling untuk edit container */
+.edit-container {
+  display: none;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.edit-container h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.edit-container span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.textfield {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  border-radius: 4px;
+}
+
+.confirm-btns {
+  text-align: right;
+  margin-top: 10px;
+}
